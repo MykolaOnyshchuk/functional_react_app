@@ -1,0 +1,39 @@
+#how_background {
+    background-color: #FEF9C3;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+}
+
+
+.how_el {
+    background-color: #FDE047;
+    display: flex;
+    justify-content: space-around;
+    height: 15vw;
+    min-width: 350px;
+    min-height: 100px;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-bottom: 2vw;
+}
+
+.how_el_cont {
+    width: 7vw;
+    display: block;
+}
+
+.how_number {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    padding-top: 2vw;
+    padding-bottom: 1.5vw;
+}
+
+.how_text {
+    text-align: center;
+    margin: 0;
+    padding-top: 1.5vw;
+    font-size: 1vw;
+}

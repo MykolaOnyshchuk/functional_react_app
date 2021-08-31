@@ -1,0 +1,91 @@
+#survey-form {
+    background-color: #FEF9C3;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1.3vw;
+    padding-top: 2vw;
+}
+
+#description {
+    margin-bottom: 2vw;
+}
+
+#name, #surname, #email, #number {
+    width: 18vw;
+    height: 1.5vw;
+    margin-bottom: 1vw;
+    background-color: #FDE047;
+    color: black;
+}
+
+#name::placeholder, #surname::placeholder, #email::placeholder, #number::placeholder {
+    color: white;
+}
+
+#name {
+    margin-left: 1.8vw;
+}
+
+#email {
+    margin-left: 1.8vw;
+}
+
+#number {
+    margin-left: 2.8vw;
+}
+
+#dropdown {
+    height: 2vw;
+    width: 5vw;
+    background-color: #FDE047;
+}
+
+.dropdown-elem {
+    background-color: #FEF9C3;
+}
+
+textarea {
+    width: 50vw;
+}
+
+input {
+    background-color: #FDE047;
+}
+
+input[type="checkbox"] {
+    margin-left: 1.3vw;
+}
+
+#service_loc {
+    margin-bottom: 2vw;
+}
+
+p {
+    font-weight: bold;
+}
+
+#submit {
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    border-radius: 25px;
+    background-color: #FDE047;
+    margin-bottom: 2vw;
+}
+
+#submit:hover {
+    animation-name: changeColorToWhite2;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes changeColorToWhite2 {
+    100% {
+        background-color: black;
+        color: #FDE047;
+    }
+}

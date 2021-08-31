@@ -1,0 +1,10 @@
+#contacts-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#address-wrapper {
+    display: block;
+    text-align: left;
+    margin-left: 40vw;
+}

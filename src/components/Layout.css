@@ -1,0 +1,46 @@
+.module_header {
+    color: black;
+    padding-top: 2vw;
+    padding-bottom: 1.5vw;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#about_us {
+    padding-top: 5.5vw;
+}
+
+.about_el {
+    width: 45vw;
+    height: 41.5vw;
+    min-width: 350px;
+    min-height: 250px;
+    background-color: darkgray;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 2vw;
+}
+
+#about_el1 {
+    margin-left: 7vw;
+}
+#about_el2 {
+    margin-left: 47vw;
+}
+#about_el3 {
+    margin-left: 7vw;
+}
+
+.about_img {
+    width: auto;
+    height: 27vw;
+    min-width: 350px;
+    min-height: 200px;
+}
+
+.about_text {
+    padding: 1vw;
+    font-size: 1.8vw;
+    text-align: center;
+}

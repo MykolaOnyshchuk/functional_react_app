@@ -1,0 +1,57 @@
+#signin-background {
+    background-color: black;
+    height: 100vh;
+}
+
+#signInHeader {
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    padding-top: 5vw;
+    margin: 0;
+}
+
+#emailInput {
+    width: 40vw;
+    height: 6vw;
+    border-radius: 50px;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    text-align: center;
+}
+
+#emailInput::placeholder {
+    font-size: 1.5vw;
+}
+
+#passwordInput {
+    width: 40vw;
+    height: 6vw;
+    border-radius: 50px;
+    margin-bottom: 5vw;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    text-align: center;
+}
+
+#passwordInput::placeholder {
+    font-size: 1.5vw;
+}
+
+#signIn {
+    width: 12vw;
+    height: 4vw;
+    border-radius: 50px;
+    font-size: 1.5vw;
+}
+
+#signIn:hover {
+    cursor: pointer;
+}
+
+#noDisplay {
+    text-align: center;
+    margin-top: 3vw;
+}
